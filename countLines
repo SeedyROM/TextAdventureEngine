@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Counting Lines..."
+echo ""
+wc -l *.[ch]*
+echo ""
+echo "Counting complete."

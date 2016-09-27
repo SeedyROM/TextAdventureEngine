@@ -22,17 +22,15 @@ int main(int argc, char* argv[])
   Quest quest;
   quest.setQuestName("Hell is here!");
   quest.setQuestDescription("You basically die and you suck.");
-  quest.addObjective("Find satan and suck his balls");
-  quest.addObjective("Fuck Saddam Hussein in the ass with a dildo!");
   quest.completeObjective(0);
 
   game->getGameState()->addQuest(quest);
 
   quest = Quest();
-  quest.setQuestName("Kill Yourself");
+  quest.setQuestName("HAHAHAH");
   quest.setQuestDescription("In the name of all great liar’s improvise in Kauffman style.");
   quest.addObjective("Play the guitar!");
-  quest.addObjective("Eat ass!");
+  quest.addObjective("hjkhjjk");
   quest.addObjective("Die.");
   quest.completeObjective(0);
   quest.completeObjective(2);
